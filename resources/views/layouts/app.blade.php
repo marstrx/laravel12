@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow-sm">
         <div class="container">
-            <a class="navbar-brand text-white" href="#">Larvel12</a>
+            <a class="navbar-brand text-white" href="{{route('home')}}">Larvel12</a>
             
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="{{route('home')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="/about">About</a>
+                        <a class="nav-link text-white" href="{{route('about')}}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="/contact">Contact</a>
+                        <a class="nav-link text-white" href="{{route('contact')}}">Contact</a>
                     </li>
                 </ul>
             </div>
